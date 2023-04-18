@@ -1,0 +1,25 @@
+body {
+    background-image: url("../skating_rink_background.jpeg");
+    background-size: cover;
+    
+}
+
+
+.active {
+    
+    font-size: x-large;
+    font-family: cursive;
+}
+
+a {
+    color: purple;
+}
+
+.skip a{
+    position: relative;
+    top: -28px;
+ }
+ .skip a:focus{
+    top: 0px;
+ }
+ 

@@ -1,0 +1,45 @@
+@media only screen {
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    img {
+        width: 18%;
+        margin: 30px 30px;  
+
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    img {
+        width: 17%;
+        margin: 10px 10px;  
+    }
+}
